@@ -291,7 +291,7 @@ public class Scheduler {
             }
             else {
                 while (rs2.next()) {
-                    System.out.println(rst2.getString("Name") + " " + 
+                    System.out.println(rs2.getString("Name") + " " + 
                                        rs2.getInt("Doses"));
                 }
             }
